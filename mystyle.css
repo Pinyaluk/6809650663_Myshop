@@ -1,0 +1,114 @@
+* { /* หมายถึงทุก element*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+      font-family: Arial,  sans-serif;
+      background-color: rgb(199, 199, 199);
+      color: #030303;
+      line-height: 1.6;
+}
+
+header {
+    background: #1d1b1b;
+    padding: 2px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ebe8e8;
+}
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block ; 
+    margin: 10px;
+}
+
+nav ul li a{
+    color: #f5f5f5;
+    text-decoration: none; /* กำกับเส้น*/
+}
+
+nav ul li a:hover { /* เวลาลากเม้าท์ไปโดน จพขึ้นสี*/
+    color: #eb0c00;
+}
+
+section {
+    padding: 20px 20px;
+    text-align: center; /*วางตำแหน่ง*/
+}
+#intro{
+   margin: 50px 0px 30px 0px;
+   font-size: 15px;
+   font-style: normal;
+   text-align: left;
+    color: #0a0a0a;
+   
+}
+
+video {
+    margin: 0 auto;
+}
+
+.video-container {
+    position: relative ;
+    width: 100%;
+    max-width: 1000px; /*ความกว้างสูงสุดของวิดีโอ*/
+    margin: 0 auto;
+    aspect-ratio: 22 / 9; /*รักษาสัดส่วน*/
+}
+
+.video-container video {
+    width: 70%;
+    height: 100%;
+    object-fit: cover; /*ป้องกันการยืด*/
+    display: block;
+}
+
+.product {
+    display: inline-block;
+    vertical-align: top;
+    background: #222;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    width:220px ;
+    height: 360px;
+    text-align: center;
+
+}
+
+.product img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+    
+}
+
+
+.product h3 {
+    margin: 10px 0px;
+    color: #f8f7f7;
+}
+
+.price {
+    color: #ff1b0f;
+    font-weight: bold;
+}
+
+footer {
+    background: #000;
+    text-align:center ;
+    padding: 20px;
+    margin: top 30px; ;
+    font: size 0.9rem; ;
+}
+footer h4 {
+    color: #f0ecec;
+}
