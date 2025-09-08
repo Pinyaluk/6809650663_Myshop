@@ -102,12 +102,44 @@ video {
     font-weight: bold;
 }
 
+.btn1 {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background-color: #222;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: all 0.3 ease;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px  solid black;
+    margin-bottom: 25px;
+    background-color: #222;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: all 0.3 ease;
+}
+
+.btn1:hover {
+    color: red;
+}
+
+.btn2:hover {
+    color: red;
+}
+
 footer {
     background: #000;
     text-align:center ;
     padding: 20px;
     margin: top 30px; ;
     font: size 0.9rem; ;
+    
 }
 footer h4 {
     color: #f0ecec;
