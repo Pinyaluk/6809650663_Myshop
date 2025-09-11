@@ -14,6 +14,10 @@ header {
     background: #1d1b1b;
     padding: 2px;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
 }
 
 header h1 {
@@ -83,6 +87,7 @@ video {
     width: 280px;
     height: 430px;
     text-align: center;
+    
 
 }
 
@@ -93,6 +98,7 @@ video {
     border-radius: 6px;
     
 }
+
 
 
 .product h3 {
@@ -112,7 +118,7 @@ video {
 .btn1 {
     display: inline-block;
     padding: 10px 20px;
-    border: 2px solid black;
+    border: 2px  solid black;
     background-color: #222;
     color: #ffffff;
     text-decoration: none;
